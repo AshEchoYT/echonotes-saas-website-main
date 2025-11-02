@@ -7,6 +7,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "EchoNotes - Modern Text Editing, Simplified",
   description: "Experience lightning-fast text editing with multi-tab support, dark mode, and powerful features. Free, open-source, and built for Windows.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
