@@ -86,7 +86,7 @@ export function DownloadSection() {
                 className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg"
                 asChild
               >
-                <a href="/EchoNotes-Setup-1.0.0.exe" download>
+                <a href="https://github.com/AshEchoYT/echonotes-saas-website-main/releases/download/v1.0.0/EchoNotes-Setup-1.0.0.exe" download>
                   <Download className="mr-2 h-5 w-5" />
                   Download Installer
                 </a>
@@ -125,7 +125,7 @@ export function DownloadSection() {
                 className="w-full"
                 asChild
               >
-                <a href="/release.zip" download>
+                <a href="https://github.com/AshEchoYT/echonotes-saas-website-main/releases/download/v1.0.0/release.zip" download>
                   <Download className="mr-2 h-5 w-5" />
                   Download Portable
                 </a>
