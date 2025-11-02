@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 
 export default function Home() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="echonotes-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="echonotes-theme">
       <div className="min-h-screen bg-background">
         <Navigation />
         <main>
